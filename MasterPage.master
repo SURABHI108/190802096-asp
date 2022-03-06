@@ -31,6 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="src/js/morris.js"></script>
 </head>
 <body>
+<form id="form1" runat="server">
 <section id="container">
 <!--header start-->
 <header class="header fixed-top clearfix">
@@ -300,6 +301,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                 </li>
                 <li class="sub-menu">
+                    <a href="ManageUser.aspx">
+                        <i class="fa fa-user"></i>
+                        <span>Manage Users</span>
+                    </a>
+                  
+                </li>
+                <li class="sub-menu">
                     <a href="javascript:;">
                         <i class="fa fa-envelope"></i>
                         <span>Mail </span>
@@ -458,5 +466,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 		});
 	</script>
+    </form>
 </body>
 </html>
