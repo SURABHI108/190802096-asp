@@ -10,70 +10,31 @@
                     <h3 class="title-style">Our <span>Services</span>
                     </h3>
                 </div>
+                <asp:Repeater ID="Repeater1" runat="server">
+                <ItemTemplate>
                 <div class="content-sec-11">
-                    <div class="row">
+                        <div class="content-sec-11">
                         <div class="col-lg-6">
                             <div class="services-single d-flex p-sm-5 p-4">
                                 <div class="service-icon mr-sm-4 mr-3">
                                     <i class="fas fa-spa"></i>
                                 </div>
                                 <div class="services-content">
-                                    <h5><a href="services.html">Garden Care</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at
-                                        porttitor vehicula nullam augue ipsum dolor.</p>
+                                    <h5><a href="services.aspx"><%# Eval("title") %></a></h5>
+                                    <p><%# Eval("description")%></p>
                                     <a href="#services" class="btn read-button d-flex align-items-center mt-4 p-0">Read
                                         More<i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="services-single d-flex p-sm-5 p-4">
-                                <div class="service-icon mr-sm-4 mr-3">
-                                    <i class="fas fa-seedling"></i>
-                                </div>
-                                <div class="services-content">
-                                    <h5><a href="services.html">Tree Planting</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at
-                                        porttitor vehicula nullam augue ipsum dolor.</p>
-                                    <a href="#services" class="btn read-button d-flex align-items-center mt-4 p-0">Read
-                                        More<i class="fas fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="services-single d-flex p-sm-5 p-4">
-                                <div class="service-icon mr-sm-4 mr-3">
-                                    <i class="fas fa-cut"></i>
-                                </div>
-                                <div class="services-content">
-                                    <h5><a href="services.html">Cutting Leaves</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at
-                                        porttitor vehicula nullam augue ipsum dolor.</p>
-                                    <a href="#services" class="btn read-button d-flex align-items-center mt-4 p-0">Read
-                                        More<i class="fas fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-single d-flex p-sm-5 p-4">
-                                <div class="service-icon mr-sm-4 mr-3">
-                                    <i class="fas fa-tint"></i>
-                                </div>
-                                <div class="services-content">
-                                    <h5><a href="services.html"> Water Gardening</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at
-                                        porttitor vehicula nullam augue ipsum dolor.</p>
-                                    <a href="#services" class="btn read-button d-flex align-items-center mt-4 p-0">Read
-                                        More<i class="fas fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        
+                    
+                        
+              
             </div>
         </div>
+        </ItemTemplate>
+        </asp:Repeater>
     </section>
     <!-- //services section -->
 
