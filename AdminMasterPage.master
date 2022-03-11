@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="AdminMasterPage" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -31,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="src/js/morris.js"></script>
 </head>
 <body>
-<form id="form1" runat="server">
+    <form id="form1" runat="server">
 <section id="container">
 <!--header start-->
 <header class="header fixed-top clearfix">
@@ -301,7 +301,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                 </li>
                 <li class="sub-menu">
-                    <a href="ManageService.aspx">
+                    <a href="MangeService.aspx">Mange Services</a>
                         <i class="fa fa-tasks"></i>
                         <span>Manage Services</span>
                     </a>

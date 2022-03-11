@@ -8,18 +8,18 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-
 public partial class Default2 : System.Web.UI.Page
 {
     SqlConnection con;
     protected void Page_Load(object sender, EventArgs e)
     {
         con = new SqlConnection(ConfigurationManager.ConnectionStrings["DatabaseConnectionString1"].ConnectionString);
-                                    // DeleteCommand="DELETE FROM [services] WHERE [sid] = @sid" 
-                                     //InsertCommand="INSERT INTO [services] ([title], [description], [status]) VALUES (@title, @description, @status)" 
-                                    // ProviderName="<%$ ConnectionStrings:DatabaseConnectionString1.ProviderName %>" 
-                                    // SelectCommand="SELECT [sid], [title], [description], [status] FROM [services]" 
-                                     //UpdateCommand="UPDATE [services] SET [title] = @title, [description] = @description, [status] = @status WHERE [sid] = @sid">
+        // DeleteCommand="DELETE FROM [services] WHERE [sid] = @sid" 
+        //InsertCommand="INSERT INTO [services] ([title], [description], [status]) VALUES (@title, @description, @status)" 
+        // ProviderName="<%$ ConnectionStrings:DatabaseConnectionString1.ProviderName %>" 
+        // SelectCommand="SELECT [sid], [title], [description], [status] FROM [services]" 
+        //UpdateCommand="UPDATE [services] SET [title] = @title, [description] = @description, [status] = @status WHERE [sid] = @sid">
+        print();
 
     }
     protected void Button1_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ public partial class Default2 : System.Web.UI.Page
                 RadioButtonList1.SelectedIndex = -1;
                 print();
                 Literal5.Text = "data succesfully Updated";
-                Button1.Text="Submit";
+                Button1.Text = "Submit";
             }
             else
             {
@@ -91,7 +91,7 @@ public partial class Default2 : System.Web.UI.Page
     protected void Button2_Click(object sender, EventArgs e)
     {
         Button btn = (Button)sender;
-        SqlDataAdapter adpt = new SqlDataAdapter("SELECT [sid], [title], [description], [status] FROM [services] WHERE [sid] ="+btn.CommandArgument , con);
+        SqlDataAdapter adpt = new SqlDataAdapter("SELECT [sid], [title], [description], [status] FROM [services] WHERE [sid] =" + btn.CommandArgument, con);
         DataTable dt = new DataTable();
         adpt.Fill(dt);
         TextBox3.Text = dt.Rows[0][1].ToString();

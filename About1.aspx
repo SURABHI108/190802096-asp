@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClientMasterPage.master" AutoEventWireup="true" CodeFile="about.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Client.master" AutoEventWireup="true" CodeFile="About1.aspx.cs" Inherits="Default2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<!-- about section -->
+- about section -->
     <section class="w3l-features-6 pt-5">
         <div class="container pt-md-5 pt-4">
             <div class="row">

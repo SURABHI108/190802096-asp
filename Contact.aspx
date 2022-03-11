@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClientMasterPage.master" AutoEventWireup="true" CodeFile="Contact.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Client.master" AutoEventWireup="true" CodeFile="Contact.aspx.cs" Inherits="Default2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
- <!-- contact -->
+<!-- contact -->
     <section class="w3l-contact pb-5" id="contact">
         <div class="container pb-md-5 pb-4">
             <div class="row contact-block">

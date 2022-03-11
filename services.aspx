@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClientMasterPage.master" AutoEventWireup="true" CodeFile="services.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Client.master" AutoEventWireup="true" CodeFile="services.aspx.cs" Inherits="Default2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
- <!-- services section -->
+<!-- services section -->
     <section class="w3l-content-11-main">
         <div class="content-design-11 py-5">
             <div class="container py-md-5 py-4">

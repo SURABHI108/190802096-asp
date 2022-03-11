@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"  EnableEventValidation="false" CodeFile="ManageService.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMasterPage.master" AutoEventWireup="true" CodeFile="MangeService.aspx.cs" Inherits="Default2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <section class="wrapper">
+<section class="wrapper">
 	<div class="form-w3layouts">
         <!-- page start-->
         <!-- page start-->
@@ -100,5 +100,4 @@
     </div>
 </div>
 </asp:Content>
-
 

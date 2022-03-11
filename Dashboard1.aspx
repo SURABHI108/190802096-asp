@@ -1,7 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Client.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMasterPage.master" AutoEventWireup="true" CodeFile="Dashboard1.aspx.cs" Inherits="Default2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-section class="wrapper">
+<!--main content start-->
+<section id="main-content">
+	<section class="wrapper">
 		<!-- //market-->
 		<div class="market-updates">
 			<div class="col-md-3 market-update-gd">
