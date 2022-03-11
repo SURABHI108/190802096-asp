@@ -301,7 +301,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                 </li>
                 <li class="sub-menu">
-                    <a href="MangeService.aspx">Mange Services</a>
+                    <a href="MangeService.aspx">
                         <i class="fa fa-tasks"></i>
                         <span>Manage Services</span>
                     </a>
@@ -313,6 +313,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>Manage Users</span>
                     </a>
                   
+                </li>
+                     <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-th"></i>
+                        <span>Manage Product</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="Category.aspx">Manage Category</a></li>
+                        <li><a href="responsive_table.html">Responsive Table</a></li>
+                    </ul>
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
